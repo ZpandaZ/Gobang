@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang='en'>
+  <head>
+    <meta http-equiv='content-type' content='text/html' charset='utf-8'>
+    <meta name="description" content="A Gobang demo" />
+    <link rel="stylesheet" type="text/css" href="styles/basic.css" >
+    <title>五子棋</title>
+  </head>
+  <body>
+    <div id="container">
+      <canvas id="canvas" width="600" height="600">你的浏览器还不支持canvas</canvas>  
+      <div class="button">
+        <input  type='button' onclick='javascripts:location.reload()' value='重新开始'/>
+        <input  type='button' onclick='undo()' value='悔棋'/>
+        <input  type='button' onclick='notUndo()' value='撤销悔棋'/>
+        <a href="index2.html">五子棋(二)</a>
+      </div>
+    </div>
+  </body>
+  <script type="text/javascript" src="scripts/global.js"></script>
+</html>
